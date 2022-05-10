@@ -12,6 +12,7 @@
 		2AEAD06D282A8E2900196142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAD06C282A8E2900196142 /* Assets.xcassets */; };
 		2AEAD070282A8E2900196142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAD06E282A8E2900196142 /* LaunchScreen.storyboard */; };
 		2AEAD078282A98A300196142 /* SafeAreaGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAD077282A98A300196142 /* SafeAreaGuidesViewController.swift */; };
+		2AEAD07A282A9B2F00196142 /* LayoutMarginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAD079282A9B2F00196142 /* LayoutMarginsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2AEAD06F282A8E2900196142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AEAD071282A8E2900196142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEAD077282A98A300196142 /* SafeAreaGuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaGuidesViewController.swift; sourceTree = "<group>"; };
+		2AEAD079282A9B2F00196142 /* LayoutMarginsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMarginsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2AEAD063282A8E2800196142 /* AppDelegate.swift */,
 				2AEAD067282A8E2800196142 /* AnchorsLabViewController.swift */,
 				2AEAD077282A98A300196142 /* SafeAreaGuidesViewController.swift */,
+				2AEAD079282A9B2F00196142 /* LayoutMarginsViewController.swift */,
 				2AEAD06C282A8E2900196142 /* Assets.xcassets */,
 				2AEAD06E282A8E2900196142 /* LaunchScreen.storyboard */,
 				2AEAD071282A8E2900196142 /* Info.plist */,
@@ -136,6 +139,7 @@
 			files = (
 				2AEAD078282A98A300196142 /* SafeAreaGuidesViewController.swift in Sources */,
 				2AEAD068282A8E2800196142 /* AnchorsLabViewController.swift in Sources */,
+				2AEAD07A282A9B2F00196142 /* LayoutMarginsViewController.swift in Sources */,
 				2AEAD064282A8E2800196142 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -258,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
